@@ -1,0 +1,43 @@
+.py-flex { display: flex; }
+.py-flex-inline { display: inline-flex; }
+
+.py-flex::before,
+.py-flex::after,
+.py-flex-inline::before,
+.py-flex-inline::after { display: none; }
+
+.py-flex-left { justify-content: flex-start; }
+.py-flex-center { justify-content: center; }
+.py-flex-right { justify-content: flex-end; }
+.py-flex-between { justify-content: space-between; }
+.py-flex-around { justify-content: space-around; }
+
+.py-flex-stretch { align-items: stretch; }
+.py-flex-top { align-items: flex-start; }
+.py-flex-middle { align-items: center; }
+.py-flex-bottom { align-items: flex-end; }
+
+.py-flex-row { flex-direction: row; }
+.py-flex-row-reverse { flex-direction: row-reverse; }
+.py-flex-column { flex-direction: column; }
+.py-flex-column-reverse { flex-direction: column-reverse; }
+
+.py-flex-nowrap { flex-wrap: nowrap; }
+.py-flex-wrap { flex-wrap: wrap; }
+.py-flex-wrap-reverse { flex-wrap: wrap-reverse; }
+
+.py-flex-wrap-stretch { align-content: stretch; }
+.py-flex-wrap-top { align-content: flex-start; }
+.py-flex-wrap-middle { align-content: center; }
+.py-flex-wrap-bottom { align-content: flex-end; }
+.py-flex-wrap-between { align-content: space-between; }
+.py-flex-wrap-around { align-content: space-around; }
+
+.py-flex-first { order: -1;}
+.py-flex-last { order: 99;}
+
+.py-flex-none { flex: none; }
+
+.py-flex-auto { flex: auto; }
+
+.py-flex-1 { flex: 1; }

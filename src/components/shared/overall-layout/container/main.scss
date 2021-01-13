@@ -1,0 +1,14 @@
+.py-container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    &.width-expand {
+        max-width: 100%;
+    }
+}
+.py-container-title{
+    margin: 0;
+}
+// .py-container-footer {
+//     border-top: 1px solid $gray-200;
+// }

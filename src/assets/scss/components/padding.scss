@@ -1,0 +1,61 @@
+/* ========================================================================
+   Component: Padding
+ ========================================================================== */
+
+// Variables
+// ========================================================================
+
+$padding-padding: $global-gutter !default;
+$padding-padding-l: $global-medium-gutter !default;
+
+$padding-small-padding: $global-small-gutter !default;
+
+$padding-large-padding: $global-gutter !default;
+$padding-large-padding-l: $global-large-gutter !default;
+
+.py-padding {
+    padding: $padding-padding;
+}
+
+/* Small
+ ========================================================================== */
+
+.py-padding-small {
+    padding: $padding-small-padding;
+}
+
+/* Large
+ ========================================================================== */
+
+.py-padding-large {
+    padding: $padding-large-padding;
+}
+
+/* Remove
+ ========================================================================== */
+
+.py-padding-remove {
+    padding: 0 !important;
+}
+.py-padding-remove-top {
+    padding-top: 0 !important;
+}
+.py-padding-remove-bottom {
+    padding-bottom: 0 !important;
+}
+.py-padding-remove-left {
+    padding-left: 0 !important;
+}
+.py-padding-remove-right {
+    padding-right: 0 !important;
+}
+
+.py-padding-remove-vertical {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.py-padding-remove-horizontal {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
